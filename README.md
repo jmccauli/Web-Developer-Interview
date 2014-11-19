@@ -26,6 +26,7 @@ General questions for LAMP based web developer. Beginner to advanced.
   * finally keyword
   * Opcode caching via OpCaching
   * Traits
+12. What is Composer?
 
 ### Javascript
 
@@ -41,8 +42,21 @@ General questions for LAMP based web developer. Beginner to advanced.
   * Constructor == the new object (unless constructor returns object, in which case this object is discarded)
 6. What is a closure?
 7. What is an Immediately Invoked Function Expression? Why would you use it?
-8. What is hoisting?
+8. What is hoisting? 
+
+### CSS
+
+1. What is the box model? What are the 4 parts to the box model?
+2. What is the difference between an inline element and a block element?
+3. Explain the difference in _visibility: hidden_ and _display: none_.
+4. What is a CSS preprocessor and how are they useful?
 
 ### MySQL
 
 1. What is the difference between an inner join and a left join?
+2. Describe what steps you take, or what things you look for, when you need to optimize queries.
+3. Explain advantages of InnoDB over MyISAM?
+  * Row-level locking
+  * Transactions
+  * Foreign key constraints
+  * Crash recovery.
