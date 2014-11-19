@@ -27,6 +27,7 @@ General questions for LAMP based web developer. Beginner to advanced.
   * Opcode caching via OpCaching
   * Traits
 12. What is Composer?
+13. What are some components of a RESTful API?
 
 ### Javascript
 
