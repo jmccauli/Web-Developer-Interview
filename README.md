@@ -19,14 +19,20 @@ General questions for LAMP based web developer. Beginner to advanced.
   * Inheritance
 10. What is the difference between _public_, _protected_, and _private_?
 11. What are some of the newer features in PHP?
-  * Constant scalar expressions
+  * Constant scalar expressions (const FOO = 1; const BAR = FOO + 1;)
   * Variadic functions (... operator)
   * Argument unpacking (... opertator)
-  * Generators
-  * finally keyword
-  * Opcode caching via OpCaching
-  * Traits
-12. What is Composer?
+  * Generators (foreach(...) { yield $i; }, range vs. xrange)
+  * finally keyword (try .. catch .. finally)
+  * Opcode caching via OpCaching (prevents script parsing for every request)
+  * Traits (Mixins, trait foo; use foo; multiple inheritance using traits)
+12. What is Composer? (dependency management)
+13. Does PHP support multiple inheritance? 
+  * Not via normal class inheritance. Use interfaces or traits.
+14. Is method overloading supported in PHP?
+  * No, but can be achieved via __call
+15. Name some ways to improve performance in PHP applications.
+16. What do you not like about PHP?
 
 ### Javascript
 
@@ -43,6 +49,7 @@ General questions for LAMP based web developer. Beginner to advanced.
 6. What is a closure?
 7. What is an Immediately Invoked Function Expression? Why would you use it?
 8. What is hoisting? 
+9. Why should you keep variables and functions out of global scope?
 
 ### CSS
 
@@ -50,6 +57,10 @@ General questions for LAMP based web developer. Beginner to advanced.
 2. What is the difference between an inline element and a block element?
 3. Explain the difference in _visibility: hidden_ and _display: none_.
 4. What is a CSS preprocessor and how are they useful?
+5. Name several types of CSS positioning and how they work.
+  * Absolute, static, relative, fixed
+6. How would you use jQuery to select all text inputs on a page?
+7. How does CSS cascade and specificity work?
 
 ### MySQL
 
