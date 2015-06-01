@@ -34,6 +34,12 @@ General questions for LAMP based web developer. Beginner to advanced.
 15. Name some ways to improve performance in PHP applications.
 16. What do you not like about PHP?
 
+### HTML
+
+1. Name some semantic tags HTML5 introduced.
+2. How would you make a fallback for a browser that does not support HTML5 audio/video?
+3. Your site uses AJAX pagination. How would you allow Googlebot (or users without JS enabled) to crawl those pages?
+
 ### Javascript
 
 1. What type of inheritance does Javascript use?
@@ -50,6 +56,11 @@ General questions for LAMP based web developer. Beginner to advanced.
 7. What is an Immediately Invoked Function Expression? Why would you use it?
 8. What is hoisting? 
 9. Why should you keep variables and functions out of global scope?
+
+### jQuery
+
+1. Name a key difference between jQuery 1 and jQuery 2.
+2. What is the difference between $.each and $('selector').each()?
 
 ### CSS
 
