@@ -37,8 +37,14 @@ General questions for LAMP based web developer. Beginner to advanced.
 ### HTML
 
 1. Name some semantic tags HTML5 introduced.
-2. How would you make a fallback for a browser that does not support HTML5 audio/video?
+2. How would you provide a fallback for a browser that does not support HTML5 audio/video?
 3. Your site uses AJAX pagination. How would you allow Googlebot (or users without JS enabled) to crawl those pages?
+
+### Wordpress
+
+1. How do you evaluate third party plugins?
+2. What is the difference between an action hook and a filter hook?
+3. Name a few ways that Wordpress plugins can store data.
 
 ### Javascript
 
