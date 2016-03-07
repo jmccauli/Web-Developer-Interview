@@ -6,15 +6,18 @@ General questions for LAMP based web developer. Beginner to advanced.
 ### PHP
 
 1. Difference between == and ===?
-3. What is the cause of this warning: 'Warning: Cannot modify header information - headers already sent'? What is a good practice to prevent it? - no closing php tag
-4. What is the keyword that tells PHP that a class definition subclasses another class? extends
-5. Name some PHP superglobals. Explain. $_GET, $_POST, $_REQUEST, $_COOKIES, $_FILES. $_SERVER, $_SESSION, $_ENV
-6. Does PHP support anonymous functions? How have you used them?
-5. Why should you not use register_globals?
-6. How would you deal with SQL injection in PHP?
+2. Difference between single quotes and double qoutes?
+3. What is Heredoc syntax? Are variables expanded when using Heredoc syntax? (yes) How does Heredoc syntax differ from Nowdoc syntax?
+2. What is the cause of this warning: 'Warning: Cannot modify header information - headers already sent'? What is a good practice to prevent it? - no closing php tag
+3. Does PHP support function return types? yes
+3. What is the keyword that tells PHP that a class definition subclasses another class? extends
+4. Name some PHP superglobals. Explain. $_GET, $_POST, $_REQUEST, $_COOKIES, $_FILES. $_SERVER, $_SESSION, $_ENV
+5. Does PHP support anonymous functions? How have you used them?
+6. Why should you not use register_globals?
+7. How would you deal with SQL injection in PHP?
 8. What is the difference between an abstract class and an interface?
 9. What are the 3 major principles of Object Oriented Programming?
-  * Encapsulation - give example
+  * Encapsulation - give example`
   * Polymorphism - give example
   * Inheritance - give example
 10. What is the difference between _public_, _protected_, and _private_?
