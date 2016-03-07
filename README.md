@@ -6,17 +6,17 @@ General questions for LAMP based web developer. Beginner to advanced.
 ### PHP
 
 1. Difference between == and ===?
-2. What is the keyword that tells PHP that a class definition subclasses another class?
-3. Name some PHP superglobals.
-4. Describe a use case for an anonymous function.
+3. What is the cause of this warning: 'Warning: Cannot modify header information - headers already sent'? What is a good practice to prevent it? - no closing php tag
+4. What is the keyword that tells PHP that a class definition subclasses another class? extends
+5. Name some PHP superglobals. Explain. $_GET, $_POST, $_REQUEST, $_COOKIES, $_FILES. $_SERVER, $_SESSION, $_ENV
+6. Does PHP support anonymous functions? How have you used them?
 5. Why should you not use register_globals?
 6. How would you deal with SQL injection in PHP?
-7. What is MVC? Why is it useful?
 8. What is the difference between an abstract class and an interface?
 9. What are the 3 major principles of Object Oriented Programming?
-  * Encapsulation
-  * Polymorphism
-  * Inheritance
+  * Encapsulation - give example
+  * Polymorphism - give example
+  * Inheritance - give example
 10. What is the difference between _public_, _protected_, and _private_?
 11. What are some of the newer features in PHP?
   * Constant scalar expressions (const FOO = 1; const BAR = FOO + 1;)
