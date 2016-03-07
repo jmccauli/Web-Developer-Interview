@@ -46,12 +46,6 @@ General questions for LAMP based web developer. Beginner to advanced.
 2. How would you provide a fallback for a browser that does not support HTML5 audio/video?
 3. Your site uses AJAX pagination. How would you allow Googlebot (or users without JS enabled) to crawl those pages?
 
-### Wordpress
-
-1. How do you evaluate third party plugins?
-2. What is the difference between an action hook and a filter hook?
-3. Name a few ways that Wordpress plugins can store data.
-
 ### Javascript
 
 1. What type of inheritance does Javascript use?
@@ -73,6 +67,7 @@ General questions for LAMP based web developer. Beginner to advanced.
 
 1. Name a key difference between jQuery 1 and jQuery 2.
 2. What is the difference between $.each and $('selector').each()?
+3. When iterating over a JQuery object with $(obj).each(), what does THIS equal? current element
 
 ### CSS
 
