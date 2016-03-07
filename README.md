@@ -8,20 +8,21 @@ General questions for LAMP based web developer. Beginner to advanced.
 1. Difference between == and ===?
 2. Difference between single quotes and double qoutes?
 3. What is Heredoc syntax? Are variables expanded when using Heredoc syntax? (yes) How does Heredoc syntax differ from Nowdoc syntax?
-2. What is the cause of this warning: 'Warning: Cannot modify header information - headers already sent'? What is a good practice to prevent it? - no closing php tag
-3. Does PHP support function return types? yes
-3. What is the keyword that tells PHP that a class definition subclasses another class? extends
-4. Name some PHP superglobals. Explain. $_GET, $_POST, $_REQUEST, $_COOKIES, $_FILES. $_SERVER, $_SESSION, $_ENV
-5. Does PHP support anonymous functions? How have you used them?
-6. Why should you not use register_globals?
-7. How would you deal with SQL injection in PHP?
-8. What is the difference between an abstract class and an interface?
-9. What are the 3 major principles of Object Oriented Programming?
+4. What is the cause of this warning: 'Warning: Cannot modify header information - headers already sent'? What is a good practice to prevent it? - no closing php tag
+5. Does PHP support function return types? yes
+6. What is the keyword that tells PHP that a class definition subclasses another class? extends
+7. Name some PHP superglobals. Explain. $_GET, $_POST, $_REQUEST, $_COOKIES, $_FILES. $_SERVER, $_SESSION, $_ENV
+8. Does PHP support anonymous functions? How have you used them?
+9. Why should you not use register_globals?
+10. How would you deal with SQL injection in PHP?
+11. What is the difference between an abstract class and an interface?
+12. Name some PHP magic methods. __sleep, __wakeup, __toString, __invoke, __set_state, __debugInfo
+13. What are the 3 major principles of Object Oriented Programming?
   * Encapsulation - give example`
   * Polymorphism - give example
   * Inheritance - give example
-10. What is the difference between _public_, _protected_, and _private_?
-11. What are some of the newer features in PHP?
+14. What is the difference between _public_, _protected_, and _private_?
+15. What are some of the newer features in PHP?
   * Constant scalar expressions (const FOO = 1; const BAR = FOO + 1;)
   * Variadic functions (... operator)
   * Argument unpacking (... opertator)
@@ -29,13 +30,15 @@ General questions for LAMP based web developer. Beginner to advanced.
   * finally keyword (try .. catch .. finally)
   * Opcode caching via OpCaching (prevents script parsing for every request)
   * Traits (Mixins, trait foo; use foo; multiple inheritance using traits)
-12. What is Composer? (dependency management)
-13. Does PHP support multiple inheritance? 
+  * Return type declarations
+  * Scalar type hinting
+16. What is Composer? (dependency management)
+17. Does PHP support multiple inheritance? 
   * Not via normal class inheritance. Use interfaces or traits.
-14. Is method overloading supported in PHP?
+18. Is method overloading supported in PHP?
   * No, but can be achieved via __call
-15. Name some ways to improve performance in PHP applications.
-16. What do you not like about PHP?
+19. Name some ways to improve performance in PHP applications.
+20. What do you not like about PHP?
 
 ### HTML
 
