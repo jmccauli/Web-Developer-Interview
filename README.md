@@ -39,6 +39,10 @@ General questions for LAMP based web developer. Beginner to advanced.
   * No, but can be achieved via __call
 19. Name some ways to improve performance in PHP applications.
 20. What do you not like about PHP?
+21. What is a design pattern?
+22. Name some design patterns and how you have used them in the past.
+23. What is the PHP Framework Interop Group?
+24. Are you familiar with PHP 7? What do you like about it?
 
 ### HTML
 
@@ -89,3 +93,15 @@ General questions for LAMP based web developer. Beginner to advanced.
   * Transactions
   * Foreign key constraints
   * Crash recovery.
+
+### General
+1. What improvements would you make to your code challenge?
+2. You're given a task in something you have not done before. How do you approach the task and what resources would you look to?
+3. How do you keep up with changes in web development?
+4. Do you progam in your off hours? What interests you the most?
+5. What is your greatest weakness?
+6. What is your greatest strength?
+7. Describe a time when you made a suggestion to improve a project you were working on. What was the suggestion? Were you successful?
+8. Describe a situation where you hit a major obstacle during a project. How did you deal with it? 
+9. How would you describe a complex technical issue to a non-technical colleague?
+10. Have you had to make an unpopular descision at work? How did you handle that?
